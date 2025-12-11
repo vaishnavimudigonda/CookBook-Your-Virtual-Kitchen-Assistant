@@ -20,8 +20,7 @@ cookbook/
 │
 └── backend/              # JSON Server backend
     ├── server.js         # REST API server
-    ├── db.json           # Database (auto-generated)
-    ├── seed.js           # Seed sample data
+    ├── db.json           # Database         
     ├── package.json
     └── .env             # Backend environment variables
 ```
@@ -212,5 +211,6 @@ npm run seed     # Seed sample data
 ## check our demo video 
 https://drive.google.com/file/d/1LjxUJWIiB49h4pEN20C-p9uBggNGi--c/view?usp=drivesdk 
 https://drive.google.com/file/d/1pNUcywksKKA4wamfAaoCEMV22JCVlEfQ/view?usp=drive_link ( code )
+
 
 
