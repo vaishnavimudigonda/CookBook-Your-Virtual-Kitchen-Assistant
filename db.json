@@ -1,0 +1,169 @@
+{
+  "users": [],
+  "recipes": [
+    {
+      "id": "3",
+      "title": "Greek Salad",
+      "image_url": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=400",
+      "category": "Lunch",
+      "ingredients": [
+        "4 tomatoes",
+        "1 cucumber",
+        "1 red onion",
+        "200g feta cheese",
+        "100g Kalamata olives",
+        "Olive oil",
+        "Oregano",
+        "Salt and pepper"
+      ],
+      "steps": [
+        "Chop tomatoes and cucumber",
+        "Slice red onion",
+        "Combine vegetables in bowl",
+        "Add olives and feta",
+        "Dress with olive oil and oregano",
+        "Season with salt and pepper"
+      ],
+      "duration": 15,
+      "difficulty": "Easy",
+      "rating": 4.3,
+      "is_favorite": false,
+      "created_at": "2025-12-05T13:11:14.106Z",
+      "updated_at": "2025-12-10T18:37:03.290Z"
+    },
+    {
+      "id": "1765115331466",
+      "title": "panner curry",
+      "image_url": "https://www.istockphoto.com/photo/malai-or-achari-paneer-in-a-gravy-made-using-red-gravy-and-green-capsicum-served-in-gm1085155140-291175270?utm_source=pixabay&u",
+      "category": "Lunch",
+      "ingredients": [
+        "Panner onions tomatos masalas "
+      ],
+      "steps": [
+        "Fry the panner in pan ",
+        "And fry the onions until it turns golden color and add tomatos keep in low flame until it gets cooked ",
+        "Grind the onions and tomatos into paste and keep it n low flame and serve the dish."
+      ],
+      "duration": 30,
+      "difficulty": "Medium",
+      "rating": 0,
+      "is_favorite": false,
+      "created_at": "2025-12-07T13:48:51.466Z",
+      "updated_at": "2025-12-07T13:48:51.466Z"
+    }
+  ],
+  "favorites": [
+    {
+      "id": "1764940493971",
+      "recipeId": {
+        "recipeId": "2",
+        "title": "Chocolate Chip Cookies",
+        "image_url": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=400"
+      }
+    },
+    {
+      "recipeId": {
+        "recipeId": "1",
+        "title": "Spaghetti Carbonara",
+        "image_url": "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=400"
+      },
+      "id": "cLPaCI-"
+    },
+    {
+      "recipeId": {
+        "recipeId": "1",
+        "title": "Spaghetti Carbonara",
+        "image_url": "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=400"
+      },
+      "id": "flGkDqp"
+    },
+    {
+      "recipeId": {
+        "recipeId": "1",
+        "title": "Spaghetti Carbonara",
+        "image_url": "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=400"
+      },
+      "id": "DIe-baX"
+    },
+    {
+      "recipeId": {
+        "recipeId": "1",
+        "title": "Spaghetti Carbonara",
+        "image_url": "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=400"
+      },
+      "id": "hTcrdJv"
+    },
+    {
+      "id": "1765088592071",
+      "recipeId": {
+        "recipeId": "1",
+        "title": "Spaghetti Carbonara",
+        "image_url": "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=400"
+      }
+    },
+    {
+      "id": "1765088765551",
+      "recipeId": {
+        "recipeId": "1",
+        "title": "Spaghetti Carbonara",
+        "image_url": "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=400"
+      }
+    },
+    {
+      "id": "1765088771779",
+      "recipeId": {
+        "recipeId": "53143",
+        "title": "Easy Spanish chicken",
+        "image_url": "https://www.themealdb.com/images/media/meals/kzxflc1763194887.jpg"
+      }
+    },
+    {
+      "id": "1765088775470",
+      "recipeId": {
+        "recipeId": "52875",
+        "title": "Chicken Ham and Leek Pie",
+        "image_url": "https://www.themealdb.com/images/media/meals/xrrtss1511555269.jpg"
+      }
+    },
+    {
+      "id": "1765097020827",
+      "recipeId": {
+        "recipeId": "1",
+        "title": "Spaghetti Carbonara",
+        "image_url": "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=400"
+      }
+    },
+    {
+      "id": "1765097022882",
+      "recipeId": {
+        "recipeId": "1",
+        "title": "Spaghetti Carbonara",
+        "image_url": "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=400"
+      }
+    },
+    {
+      "id": "1765097031055",
+      "recipeId": {
+        "recipeId": "1",
+        "title": "Spaghetti Carbonara",
+        "image_url": "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=400"
+      }
+    },
+    {
+      "id": "1765115343900",
+      "recipeId": {
+        "recipeId": "1765115331466",
+        "title": "panner curry",
+        "image_url": "https://www.istockphoto.com/photo/malai-or-achari-paneer-in-a-gravy-made-using-red-gravy-and-green-capsicum-served-in-gm1085155140-291175270?utm_source=pixabay&u"
+      }
+    },
+    {
+      "id": "1765381615076",
+      "recipeId": {
+        "recipeId": "1",
+        "title": "Spaghetti Carbonara",
+        "image_url": "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=400"
+      }
+    }
+  ]
+}
