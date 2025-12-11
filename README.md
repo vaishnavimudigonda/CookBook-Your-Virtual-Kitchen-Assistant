@@ -1,4 +1,4 @@
-# CookBook Application - Full Stack
+# CookBook Application 
 
 A modern React + TailwindCSS frontend with JSON Server backend for recipe management.
 
@@ -6,7 +6,7 @@ A modern React + TailwindCSS frontend with JSON Server backend for recipe manage
 
 ```
 cookbook/
-├── project/               # Frontend (React + TailwindCSS)
+├── project/               # Frontend 
 │   ├── src/
 │   │   ├── components/   # Reusable UI components
 │   │   ├── pages/        # Page components
@@ -27,15 +27,14 @@ cookbook/
 ```
 
 ## Features
-
-- ✅ **Recipe Management**: Create, read, update, delete recipes (CRUD)
-- ✅ **Favorites**: Mark recipes as favorites
-- ✅ **Search & Filter**: Search by title, filter by category
-- ✅ **Authentication**: JWT-based auth with JSON Server Auth
-- ✅ **Responsive Design**: Mobile-friendly TailwindCSS UI
-- ✅ **TheMealDB Integration**: Search suggestions from external API
-- ✅ **Toast Notifications**: User feedback system
-- ✅ **Clean JavaScript**: No TypeScript, pure JavaScript codebase
+ **Recipe Management**: Create, read, update, delete recipes (CRUD)
+ **Favorites**: Mark recipes as favorites
+ **Search & Filter**: Search by title, filter by category
+ **Authentication**: JWT-based auth with JSON Server Auth
+ **Responsive Design**: Mobile-friendly TailwindCSS UI
+ **TheMealDB Integration**: Search suggestions from external API
+ **Toast Notifications**: User feedback system
+ **Clean JavaScript**: No TypeScript, pure JavaScript codebase
 
 ## API Endpoints
 
@@ -73,9 +72,6 @@ DELETE /favorites/:id       Remove from favorites
 cd backend
 npm install
 
-# Seed sample data (optional)
-npm run seed
-
 # Start server (runs on port 3001)
 npm start
 ```
@@ -89,7 +85,7 @@ npm install
 # Install dependencies
 npm install axios
 
-# Create .env file (already created)
+# Create .env file 
 # VITE_API_URL=http://localhost:3001
 
 # Start dev server (runs on port 5173)
@@ -213,29 +209,8 @@ npm run seed     # Seed sample data
 - Loading states with toast feedback
 - Confirmation dialogs for destructive actions
 
-## Next Steps
+## check our demo video 
+https://drive.google.com/file/d/1LjxUJWIiB49h4pEN20C-p9uBggNGi--c/view?usp=drivesdk 
+https://drive.google.com/file/d/1pNUcywksKKA4wamfAaoCEMV22JCVlEfQ/view?usp=drive_link ( code )
 
-1. **Database**: Modify `backend/db.json` for custom data
-2. **Authentication**: Implement login page in frontend
-3. **Advanced Features**: Add ratings, reviews, sharing
-4. **Deployment**: Deploy frontend to Vercel/Netlify, backend to Heroku
-5. **Testing**: Add Jest/Vitest unit and integration tests
 
-## Troubleshooting
-
-### Backend not connecting
-- Ensure backend runs on port 3001
-- Check `VITE_API_URL` in frontend `.env`
-- Use CORS-enabled endpoints
-
-### CORS errors
-- Backend server.js includes CORS middleware
-- Vite dev server includes proxy config for `/auth`, `/recipes`, `/favorites`
-
-### Port conflicts
-- Change `PORT` in `backend/.env`
-- Update `VITE_API_URL` accordingly
-
-## License
-
-MIT
